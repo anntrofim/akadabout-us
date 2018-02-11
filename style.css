@@ -1,0 +1,236 @@
+body {
+	color: #60606e;
+}
+
+/*=============== Section Start ===============*/
+
+.start {
+	font-family: 'Montserrat', sans-serif;
+	position: relative;
+	background: url(images/start_image.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 500px;
+}
+
+.start__header {
+	height: 100px;
+	position: relative;
+}
+
+.start__logo {
+	text-transform: uppercase;
+	width: 15%;
+	cursor: pointer;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.start__logo:hover {
+	color: #7beec7;
+}
+
+.start__burger {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.start__burger-h {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.start__burger:hover {
+	opacity: 0;
+}
+
+.start__cont {
+	position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, calc(-50% + 50px));
+}
+
+.start__ref {
+	text-decoration: none;
+	color: #60606e;
+}
+
+.start__ref:hover {
+	text-decoration: none;
+	color: #7beec7;
+}
+
+/*=============== Section About ===============*/
+
+.about {
+	margin-top: 100px;
+}
+
+.rect {
+	position: absolute;
+	z-index: -1;
+	width: 75px;
+	top: 20px;
+}
+
+.lg-title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 50%;
+}
+
+.txt {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2;
+	font-size: 14px;
+}
+
+/*=============== Section Benefits ===============*/
+
+.benefits {
+	margin-top: 100px;
+}
+
+.benefits__icon {
+	margin-right: 20px;
+}
+
+.sm-title {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+/*=============== Section Team ===============*/
+
+.team {
+	margin-top: 100px;
+}
+
+.team__mem {
+	position: relative;
+	cursor: pointer;
+}
+
+.name-field {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	background-color: #7beec7;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	/*transition: all 5s ease;*/
+}
+
+.name {
+	line-height: 3;
+}
+
+.team__mem:hover .name-field {
+	display: inherit;
+	/*transition: all 5s ease;*/
+}
+
+/*=============== Footer ===============*/
+
+.footer {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	background-color: #7beec7;
+	padding: 40px 0 40px;
+}
+
+.footer__title {
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 1.5;
+}
+
+.footer__btn {
+	border: none;
+	text-transform: uppercase;
+	background-color: #ffffff;
+	font-size: 14px;
+	color: #7beec7;
+	margin: 10px 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.footer__btn:hover {
+	background-color: #999999;
+	color: #ffffff;
+}
+
+.footer__btn:focus {
+	outline: none;
+}
+
+.footer__form {
+	color: #999999;
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+.footer__form-title {
+	color: #60606e;
+}
+
+.footer__txt {
+	font-family: 'Open Sa;;ns', sans-serif;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.footer__form-field {
+	border: 1px solid #cdcdcd;
+	border-right: transparent;
+	width: 66%;
+	padding: 10px;
+	padding-left: 20px;
+	color: #60606e;
+}
+
+.footer__form-field:focus {
+	outline: none;
+}
+
+input::placeholder{
+	color: #999999;
+}
+
+.footer__form-btn {
+	cursor: pointer;
+	border: 1px solid #7beec7;
+	background-color: #7beec7;
+	padding: 10px;
+	width: 33%;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.footer__form-btn:focus {
+	outline: none;
+}
+
+.footer__form-btn:hover {
+	border: 1px solid #999999;
+	background-color: #999999;
+}
+
